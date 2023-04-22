@@ -28,6 +28,26 @@ public class SaltarEh {
         LienzoStd.salvar(nombreArchivo);
         */
         LienzoStd.ponTamanioLienzo(with_Lienzo,heith_Lienzo);
+        
+        
+        LienzoStd.ponEscalaX(0, with_Lienzo);
+        LienzoStd.ponEscalaY(0, heith_Lienzo);
+        
+        /*
+        //////////////////////////////////////////////////////////
+        /// prueva de las figuras
+        LienzoStd.rectangulo(with_Lienzo/2, heith_Lienzo/2, 50, 25);
+        LienzoStd.circulo(0, 0,50);
+        LienzoStd.elipse(with_Lienzo/2, heith_Lienzo*.8, 40, 30);
+        LienzoStd.linea(0, heith_Lienzo*.25, with_Lienzo, heith_Lienzo*.25);
+        LienzoStd.arc(with_Lienzo/2, heith_Lienzo*.9, 100, 45, 90);
+        /// prueva de las figuras
+        //////////////////////////////////////////////////////////
+        */
+        //LienzoStd.mostrar(0);
+        
+
+
     }
 
     private static int set_Num_Pixels(String type,float persent,int limitDown,int limitUp) {
