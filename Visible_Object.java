@@ -15,7 +15,7 @@ public abstract class Visible_Object {
 
     public abstract void show();
 
-    public abstract void move(double ratechangeX, double ratechangeY);
+        public abstract void move(double ratechangeX, double ratechangeY);
 
     public double getX_Spawn() {
         return x_Spawn;

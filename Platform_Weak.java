@@ -9,6 +9,4 @@ public class Platform_Weak extends Basic_Platform{
         else{
             super.height=0;
             super.width=0;
-        }    
-    }
-}
+        }}}

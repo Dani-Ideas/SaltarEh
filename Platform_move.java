@@ -6,6 +6,7 @@ public class Platform_move extends Basic_Platform {
     }
     @Override
     public void move(double ratechangeX, double ratechangeY) {
+        super.delete(ratechangeY);
         if (ratechangeX-super.width<= LienzoStd.pideLimiteXMin())
             direccion=5;
          if (ratechangeX+super.width>=LienzoStd.pideLimiteXMax())
